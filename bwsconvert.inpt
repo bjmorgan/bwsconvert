@@ -1,0 +1,27 @@
+2                 Number of ionic species.
+32.15d0           Simulation cell length.
+1.0  0.0  0.0     Crystallographic a-vector.
+0.0  1.0  0.0     Crystallographic b-vector.
+0.0  0.0  1.0     Crystallographic c-vector.
+96                No. of ions of species 1
+0.5               Ionic radius
+1.0 0.0 0.0       Colours for type 1.
+F
+48                No. of ions of species 2
+0.5
+0.0 1.0 0.0       Colours for type 2.
+Be
+1                 Number of bond pairs
+Be
+F
+1.0               Min.
+4.5               Max.
+0.50              Grey.
+0.005             Radius.
+setuppos.out
+movie.bs
+T                 Animation?
+200               Number of frames possible.
+positions.out
+movie.mv
+

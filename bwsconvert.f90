@@ -50,12 +50,11 @@ end type species
 double precision :: h(3,3)
 double precision :: boxlen(3)
 double precision, dimension(3) :: rtemp
-double precision :: du
 
 integer :: nframes, nspec, npairs
-integer :: i, j, k, l
+integer :: i, j, k
 integer :: nskip
-integer :: filein, fileout, filecell, filebox
+integer :: filein, fileout, filebox
 integer :: err
 
 character(len=80) :: filename, filename_out, filename_box, mvin, mvout
